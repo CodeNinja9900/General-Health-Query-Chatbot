@@ -8,10 +8,9 @@ This project does not rely on a specific pre-trained dataset for health informat
 
 3. Models Applied
    Large Language Model (LLM):
-
-  Model Name: Mistral-7B-Instruct-v0.2
-  Provider: Mistral AI (accessed via Hugging Face)
-  Optimization: The model was loaded with 4-bit quantization using BitsAndBytesConfig (load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_use_double_quant=True) to optimize memory usage   and allow it to run efficiently on resource-constrained environments like Colab's T4 GPU.
+   Model Name: Mistral-7B-Instruct-v0.2
+   Provider: Mistral AI (accessed via Hugging Face)
+   Optimization: The model was loaded with 4-bit quantization using BitsAndBytesConfig (load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_use_double_quant=True) to optimize memory    usage   and allow it to run efficiently on resource-constrained environments like Colab's T4 GPU.
 
 4. Key Results and Findings
     Successful LLM Integration: The Mistral-7B-Instruct-v0.2 model was successfully loaded and configured for text generation, demonstrating its capability to process and respond to health      queries.
